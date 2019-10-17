@@ -1,0 +1,162 @@
+
+#header {
+  margin: $basic-margin;
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+body {
+  font: 400 20px/1.1 'Lato', sans-serif;
+}
+.container {
+  margin: 0 auto;
+  max-width: 1140px;
+}
+#container {
+  background: $basic-color;
+  overflow: hidden;
+  position: relative;
+}
+.logo {
+  display: inline-block;
+  vertical-align: top;
+  width: 206px;
+  height: 55px;
+  overflow: hidden;
+  background-image: url("../images/daydream-logo.png");
+  background-repeat: no-repeat;
+}
+.social_links {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+
+}
+.socials {
+  background: white;
+  border-radius: 32px;
+
+
+  &:hover {
+    background: black;
+    path {
+      fill: white;
+    }
+  }
+  &:active {
+    background: $basic-color;
+    path {
+      fill: black;
+    }
+  }
+}
+.hero-box {
+  display: flex;
+  justify-content: space-between;
+  &__img01 {
+    position: relative;
+    margin: 0;
+  }
+  &__img02 {
+    max-width: 359px;
+    margin-left: 10px;
+    position: relative;
+  }
+}
+.quote01 {
+  position: absolute;
+  font-size: 36px;
+  font-style: italic;
+  max-width: 470px;
+  display: block;
+  bottom: 68px;
+  left: 32px;
+}
+a.quote {
+  text-decoration: none;
+  color: white;
+}
+.telka {
+  margin-bottom: 6px;
+}
+.quote02 {
+  position: absolute;
+  width: 243px;
+  line-height: normal;
+  font-size: 26px;
+  font-style: italic;
+  bottom: 285px;
+  left: 32px;
+}
+.item_top {
+  background: #d0dfda;
+  display: flex;
+  align-items: center;
+  position: relative;
+  height: 250px;
+}
+.quote_top {
+  text-decoration: none;
+  color: black;
+}
+h2 {
+  padding: 0;
+  font-family: Lato;
+  font-size: 26px;
+  font-style: italic;
+  margin-left: 32px;
+  max-width: 270px;
+  font-weight: normal;
+}
+.button {
+  position: absolute;
+  bottom: 33px;
+  left: 33px;
+  color: #4a4a4a;
+  text-decoration: none;
+  font-size: 11px;
+}
+.arrow {
+  max-width: 11px;
+  position: absolute;
+  left: 124px;
+  bottom: 35px;
+}
+.scroll {
+  overflow: auto;
+}
+.item_component__price {
+  @extend %font-large;
+}
+.clothes {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+}
+.global {
+  background: #f3f3f1;
+  margin: 36px 30px 0 0;
+}
+.style01 {
+  background: #f3f3f1;
+}
+.style02 {
+  background: white;
+}
+.size01 {
+  width: 258px;
+  height: 458px;
+}
+.size02 {
+width: 552px;
+height: 458px;
+}
+.style03 {
+  background: #eefafc;
+}
+.style04 {
+  background: #f4e6dc;
+}
