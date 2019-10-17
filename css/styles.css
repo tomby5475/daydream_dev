@@ -17,6 +17,7 @@ ol {
 #header {
   margin: 16px; }
   #header .container {
+    display: block;
     display: flex;
     justify-content: space-between;
     align-items: center; }
