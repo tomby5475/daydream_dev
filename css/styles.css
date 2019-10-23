@@ -17,7 +17,6 @@ ol {
 #header {
   margin: 16px; }
   #header .container {
-    display: block;
     display: flex;
     justify-content: space-between;
     align-items: center; }
@@ -44,13 +43,14 @@ body {
   background-repeat: no-repeat; }
 
 .social_links {
-  list-style-type: none;
+  list-style: none;
   display: flex;
   justify-content: center; }
 
 .socials {
+  margin-left: 10px;
   background: white;
-  border-radius: 32px; }
+  border-radius: 35 35 35 35; }
   .socials:hover {
     background: black; }
     .socials:hover path {
@@ -60,8 +60,13 @@ body {
     .socials:active path {
       fill: black; }
 
+.people {
+  width: 100%;
+  display: flex; }
+
 .hero-box {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between; }
   .hero-box__img01 {
     position: relative;
@@ -69,9 +74,11 @@ body {
   .hero-box__img02 {
     max-width: 359px;
     margin-left: 10px;
-    position: relative; }
+    position: relative;
+    margin-top: 0; }
 
 .quote01 {
+  color: white;
   position: absolute;
   font-size: 36px;
   font-style: italic;
@@ -88,6 +95,7 @@ a.quote {
   margin-bottom: 6px; }
 
 .quote02 {
+  color: white;
   position: absolute;
   width: 243px;
   line-height: normal;
@@ -133,6 +141,15 @@ h2 {
 .scroll {
   overflow: auto; }
 
+.item_component__price {
+  margin-left: 75px; }
+
+.notice {
+  margin-top: 44px;
+  font-size: 12px;
+  margin-left: 85px;
+  max-width: 105px; }
+
 .clothes {
   margin: 0;
   padding: 0;
@@ -141,10 +158,9 @@ h2 {
 
 .global {
   background: #f3f3f1;
-  margin: 36px 30px 0 0; }
-
-.style01 {
-  background: #f3f3f1; }
+  margin: 36px 30px 0 0;
+  min-width: 258px;
+  min-height: 360px; }
 
 .style02 {
   background: white; }
@@ -159,6 +175,10 @@ h2 {
 
 .style03 {
   background: #eefafc; }
+
+.size03 {
+  width: 258px;
+  height: 360px; }
 
 .style04 {
   background: #f4e6dc; }

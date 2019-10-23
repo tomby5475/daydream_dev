@@ -2,7 +2,6 @@
 #header {
   margin: $basic-margin;
   .container {
-    display: block;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -30,16 +29,14 @@ body {
   background-repeat: no-repeat;
 }
 .social_links {
-  list-style-type: none;
+  list-style: none;
   display: flex;
   justify-content: center;
-
 }
 .socials {
+  margin-left: 10px;
   background: white;
-  border-radius: 32px;
-
-
+  border-radius: 35 35 35 35;
   &:hover {
     background: black;
     path {
@@ -53,8 +50,13 @@ body {
     }
   }
 }
+.people {
+  width: 100%;
+  display: flex;
+}
 .hero-box {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   &__img01 {
     position: relative;
@@ -64,9 +66,11 @@ body {
     max-width: 359px;
     margin-left: 10px;
     position: relative;
+    margin-top: 0;
   }
 }
 .quote01 {
+  color: white;
   position: absolute;
   font-size: 36px;
   font-style: italic;
@@ -83,6 +87,7 @@ a.quote {
   margin-bottom: 6px;
 }
 .quote02 {
+  color: white;
   position: absolute;
   width: 243px;
   line-height: normal;
@@ -130,6 +135,13 @@ h2 {
 }
 .item_component__price {
   @extend %font-large;
+  margin-left: 75px;
+}
+.notice {
+  margin-top: 44px;
+  font-size: 12px;
+  margin-left: 85px;
+  max-width: 105px;
 }
 .clothes {
   margin: 0;
@@ -140,9 +152,11 @@ h2 {
 .global {
   background: #f3f3f1;
   margin: 36px 30px 0 0;
+  min-width: 258px;
+  min-height: 360px;
 }
 .style01 {
-  background: #f3f3f1;
+
 }
 .style02 {
   background: white;
@@ -157,6 +171,10 @@ height: 458px;
 }
 .style03 {
   background: #eefafc;
+}
+.size03 {
+  width: 258px;
+  height: 360px;
 }
 .style04 {
   background: #f4e6dc;
