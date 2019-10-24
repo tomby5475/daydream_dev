@@ -33,10 +33,15 @@ body {
   display: flex;
   justify-content: center;
 }
-.socials {
+ a.social_links {
+  width: 32px;
+  height: 32px;
+  display: flex;
   margin-left: 10px;
   background: white;
-  border-radius: 35 35 35 35;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
   &:hover {
     background: black;
     path {
@@ -83,9 +88,6 @@ a.quote {
   text-decoration: none;
   color: white;
 }
-.telka {
-  margin-bottom: 6px;
-}
 .quote02 {
   color: white;
   position: absolute;
@@ -102,6 +104,7 @@ a.quote {
   align-items: center;
   position: relative;
   height: 250px;
+  margin-top: 10px;
 }
 .quote_top {
   text-decoration: none;
@@ -135,13 +138,16 @@ h2 {
 }
 .item_component__price {
   @extend %font-large;
-  margin-left: 75px;
+  display: block;
+  text-align: center;
+
 }
 .notice {
   margin-top: 44px;
   font-size: 12px;
   margin-left: 85px;
   max-width: 105px;
+  text-transform: uppercase;
 }
 .clothes {
   margin: 0;
@@ -168,9 +174,6 @@ h2 {
 .size02 {
 width: 552px;
 height: 458px;
-}
-.style03 {
-  background: #eefafc;
 }
 .size03 {
   width: 258px;

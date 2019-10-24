@@ -5,6 +5,9 @@ ol {
   margin: 0;
   padding: 0; }
 
+img {
+  vertical-align: top; }
+
 * {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; }
@@ -47,17 +50,22 @@ body {
   display: flex;
   justify-content: center; }
 
-.socials {
+a.social_links {
+  width: 32px;
+  height: 32px;
+  display: flex;
   margin-left: 10px;
   background: white;
-  border-radius: 35 35 35 35; }
-  .socials:hover {
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center; }
+  a.social_links:hover {
     background: black; }
-    .socials:hover path {
+    a.social_links:hover path {
       fill: white; }
-  .socials:active {
+  a.social_links:active {
     background: #e2e2e2; }
-    .socials:active path {
+    a.social_links:active path {
       fill: black; }
 
 .people {
@@ -91,9 +99,6 @@ a.quote {
   text-decoration: none;
   color: white; }
 
-.telka {
-  margin-bottom: 6px; }
-
 .quote02 {
   color: white;
   position: absolute;
@@ -109,7 +114,8 @@ a.quote {
   display: flex;
   align-items: center;
   position: relative;
-  height: 250px; }
+  height: 250px;
+  margin-top: 10px; }
 
 .quote_top {
   text-decoration: none;
@@ -142,13 +148,15 @@ h2 {
   overflow: auto; }
 
 .item_component__price {
-  margin-left: 75px; }
+  display: block;
+  text-align: center; }
 
 .notice {
   margin-top: 44px;
   font-size: 12px;
   margin-left: 85px;
-  max-width: 105px; }
+  max-width: 105px;
+  text-transform: uppercase; }
 
 .clothes {
   margin: 0;
@@ -172,9 +180,6 @@ h2 {
 .size02 {
   width: 552px;
   height: 458px; }
-
-.style03 {
-  background: #eefafc; }
 
 .size03 {
   width: 258px;
