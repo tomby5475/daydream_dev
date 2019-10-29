@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "scss": "gulp watch"
+    "scss": "gulp sass watch"
   },
   "author": "natali",
   "license": "ISC",
