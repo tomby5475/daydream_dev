@@ -1,68 +1,41 @@
 html,
 body,
 ul,
-ol {
+ol,
+li,
+p {
   margin: 0;
   padding: 0; }
 
+figure {
+  margin: 0; }
+
+img {
+  vertical-align: top; }
+
 * {
   -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale; }
+  -moz-osx-font-smoothing: grayscale;
+  box-sizing: border-box; }
+
+body {
+  font: 400 20px/1.1 'Lato', sans-serif; }
 
 .item_component__price {
   font-size: 30px;
   font-weight: bold;
   color: black; }
 
-#header {
-  margin: 16px; }
-  #header .container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center; }
-
-body {
-  font: 400 20px/1.1 'Lato', sans-serif; }
-
 .container {
   margin: 0 auto;
   max-width: 1140px; }
 
-#container {
-  background: #e2e2e2;
-  overflow: hidden;
-  position: relative; }
-
-.logo {
-  display: inline-block;
-  vertical-align: top;
-  width: 206px;
-  height: 55px;
-  overflow: hidden;
-  background-image: url("../images/daydream-logo.png");
-  background-repeat: no-repeat; }
-
-.social_links {
-  list-style: none;
-  display: flex;
-  justify-content: center; }
-
-.socials {
-  margin-left: 10px;
-  background: white;
-  border-radius: 35 35 35 35; }
-  .socials:hover {
-    background: black; }
-    .socials:hover path {
-      fill: white; }
-  .socials:active {
-    background: #e2e2e2; }
-    .socials:active path {
-      fill: black; }
-
 .people {
   width: 100%;
-  display: flex; }
+  display: flex;
+  margin-bottom: 50px; }
+  .people a {
+    display: block; }
 
 .hero-box {
   display: flex;
@@ -70,12 +43,10 @@ body {
   justify-content: space-between; }
   .hero-box__img01 {
     position: relative;
-    margin: 0; }
+    margin-right: 10px; }
   .hero-box__img02 {
     max-width: 359px;
-    margin-left: 10px;
-    position: relative;
-    margin-top: 0; }
+    position: relative; }
 
 .quote01 {
   color: white;
@@ -91,9 +62,6 @@ a.quote {
   text-decoration: none;
   color: white; }
 
-.telka {
-  margin-bottom: 6px; }
-
 .quote02 {
   color: white;
   position: absolute;
@@ -104,61 +72,69 @@ a.quote {
   bottom: 285px;
   left: 32px; }
 
+.telka {
+  margin-bottom: 10px; }
+
 .item_top {
   background: #d0dfda;
   display: flex;
   align-items: center;
   position: relative;
-  height: 250px; }
+  height: 250px;
+  padding-left: 32px;
+  overflow: hidden; }
+  .item_top h2 {
+    padding: 0;
+    font-family: Lato;
+    font-size: 26px;
+    font-style: italic;
+    max-width: 270px;
+    font-weight: normal;
+    margin: 0; }
 
 .quote_top {
   text-decoration: none;
   color: black; }
 
-h2 {
-  padding: 0;
-  font-family: Lato;
-  font-size: 26px;
-  font-style: italic;
-  margin-left: 32px;
-  max-width: 270px;
-  font-weight: normal; }
-
-.button {
-  position: absolute;
-  bottom: 33px;
-  left: 33px;
+.more {
+  position: relative;
   color: #4a4a4a;
   text-decoration: none;
+  margin: 0;
   font-size: 11px; }
 
-.arrow {
-  max-width: 11px;
-  position: absolute;
-  left: 124px;
-  bottom: 35px; }
+.more::before {
+  background-image: url(../images/icon_arrow.png);
+  width: 19.5px;
+  height: 12px;
+  float: right;
+  background-position: center;
+  content: "";
+  top: 50%; }
 
 .scroll {
   overflow: auto; }
 
 .item_component__price {
-  margin-left: 75px; }
+  display: block;
+  text-align: center; }
 
 .notice {
-  margin-top: 44px;
   font-size: 12px;
-  margin-left: 85px;
-  max-width: 105px; }
+  max-width: 105px;
+  text-transform: uppercase;
+  display: inline-block;
+  text-align: center;
+  padding-top: 44px; }
 
 .clothes {
-  margin: 0;
-  padding: 0;
   list-style: none;
   display: flex; }
+  .clothes li {
+    padding-right: 36px; }
 
 .global {
   background: #f3f3f1;
-  margin: 36px 30px 0 0;
   min-width: 258px;
   min-height: 360px; }
 
@@ -173,12 +149,53 @@ h2 {
   width: 552px;
   height: 458px; }
 
-.style03 {
-  background: #eefafc; }
-
 .size03 {
   width: 258px;
   height: 360px; }
 
 .style04 {
   background: #f4e6dc; }
+
+#header {
+  padding: 16px 0px 25px; }
+  #header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+
+#container {
+  background: #e2e2e2;
+  overflow: hidden;
+  position: relative; }
+
+.logo {
+  display: inline-block;
+  vertical-align: top;
+  width: 206px;
+  height: 48px;
+  overflow: hidden;
+  background-image: url("../images/daydream-logo.png");
+  background-repeat: no-repeat; }
+
+.social_links {
+  list-style: none;
+  display: flex;
+  justify-content: center; }
+  .social_links li {
+    padding: 0 0 0 24px; }
+  .social_links a {
+    width: 32px;
+    height: 32px;
+    display: flex;
+    background: white;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center; }
+    .social_links a:hover {
+      background: black; }
+      .social_links a:hover path {
+        fill: white; }
+    .social_links a:active {
+      background: #e2e2e2; }
+      .social_links a:active path {
+        fill: black; }

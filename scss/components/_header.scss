@@ -1,0 +1,54 @@
+
+#header {
+  padding: 16px 0px 25px;
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+#container {
+  background: $basic-color;
+  overflow: hidden;
+  position: relative;
+}
+.logo {
+  display: inline-block;
+  vertical-align: top;
+  width: 206px;
+  height: 48px;
+  overflow: hidden;
+  background-image: url("../images/daydream-logo.png");
+  background-repeat: no-repeat;
+
+}
+.social_links {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+    li {
+      padding: 0 0 0 24px;
+    }
+
+    a {
+     width: 32px;
+     height: 32px;
+     display: flex;
+     background: white;
+     border-radius: 50%;
+     align-items: center;
+     justify-content: center;
+     &:hover {
+       background: black;
+       path {
+         fill: white;
+       }
+     }
+     &:active {
+       background: $basic-color;
+       path {
+         fill: black;
+       }
+     }
+   }
+  }
