@@ -1,13 +1,14 @@
-html,
-body,
 ul,
 ol,
 li,
 p {
   margin: 0;
-  padding: 0; }
+  padding: 0;
+  list-style: none; }
 
-figure {
+figure,
+body,
+p {
   margin: 0; }
 
 img {
@@ -78,19 +79,19 @@ a.quote {
 .item_top {
   background: #d0dfda;
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   position: relative;
   height: 250px;
   padding-left: 32px;
   overflow: hidden; }
   .item_top h2 {
-    padding: 0;
-    font-family: Lato;
     font-size: 26px;
     font-style: italic;
     max-width: 270px;
     font-weight: normal;
-    margin: 0; }
+    margin: 0;
+    padding-top: 60 px; }
 
 .quote_top {
   text-decoration: none;
@@ -117,26 +118,81 @@ a.quote {
 
 .item_component__price {
   display: block;
-  text-align: center; }
-
-.notice {
-  font-size: 12px;
-  max-width: 105px;
-  text-transform: uppercase;
-  display: inline-block;
   text-align: center;
-  padding-top: 44px; }
+  padding-top: 70px; }
+
+.notice01 {
+  font-size: 12px;
+  display: inline-block;
+  max-width: 100px;
+  text-transform: uppercase;
+  text-align: center;
+  padding-top: 44px;
+  font-weight: bold; }
+
+.notice02 {
+  font-size: 12px;
+  font-style: italic;
+  text-transform: uppercase;
+  text-align: center;
+  max-width: 100px;
+  display: inline-block;
+  padding-top: 24px; }
+
+.notice03 {
+  max-width: 115px;
+  margin-bottom: 22px; }
+
+.vibes {
+  max-width: 110px; }
+
+.img02text {
+  text-transform: uppercase;
+  font-size: 36px;
+  font-weight: bold; }
 
 .clothes {
-  list-style: none;
   display: flex; }
-  .clothes li {
-    padding-right: 36px; }
 
 .global {
   background: #f3f3f1;
   min-width: 258px;
-  min-height: 360px; }
+  min-height: 360px;
+  text-align: center;
+  margin-right: 36px;
+  margin-bottom: 30px; }
+
+.lady {
+  background: #f3f3f1;
+  min-width: 258px;
+  min-height: 360px;
+  margin-right: 36px;
+  margin-bottom: 30px;
+  padding-left: 57px;
+  display: flex;
+  align-items: stretch; }
+
+.lady_butt {
+  position: absolute;
+  max-width: 181px;
+  margin-left: 263px;
+  padding-top: 48px; }
+
+.btn {
+  display: inline-block;
+  background: #000000;
+  color: #ffffff;
+  padding: 1rem 1rem;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: bold;
+  min-width: 174px;
+  min-height: 50px;
+  text-align: center; }
+
+.align {
+  padding-top: 62px; }
 
 .style02 {
   background: white; }
@@ -154,19 +210,28 @@ a.quote {
   height: 360px; }
 
 .style04 {
-  background: #f4e6dc; }
+  background: #f4e6dc;
+  padding-top: 22px; }
+
+.choker {
+  width: 51px;
+  color: black;
+  margin-bottom: 57px; }
 
 #header {
+  margin: 16px;
   padding: 16px 0px 25px; }
   #header .container {
     display: flex;
     justify-content: space-between;
-    align-items: center; }
+    align-items: center;
+    margin: 0 auto; }
 
 #container {
   background: #e2e2e2;
   overflow: hidden;
-  position: relative; }
+  position: relative;
+  width: 1440px; }
 
 .logo {
   display: inline-block;
@@ -178,7 +243,6 @@ a.quote {
   background-repeat: no-repeat; }
 
 .social_links {
-  list-style: none;
   display: flex;
   justify-content: center; }
   .social_links li {

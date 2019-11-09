@@ -1,14 +1,14 @@
-
-html,
-body,
 ul,
 ol,
 li,
 p {
   margin: 0;
   padding: 0;
+  list-style: none;
 }
-figure {
+figure,
+body,
+p {
   margin: 0;
 }
 img {
