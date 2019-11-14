@@ -103,15 +103,14 @@ a.quote {
   text-decoration: none;
   margin: 0;
   font-size: 11px; }
-
-.more::before {
-  background-image: url(../images/icon_arrow.png);
-  width: 19.5px;
-  height: 12px;
-  float: right;
-  background-position: center;
-  content: "";
-  top: 50%; }
+  .more::after {
+    background: url(../images/icon_arrow.svg) no-repeat;
+    width: 20px;
+    height: 12px;
+    display: inline-block;
+    vertical-align: middle;
+    background-position: center;
+    content: ""; }
 
 .scroll {
   overflow: auto; }
