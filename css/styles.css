@@ -31,6 +31,11 @@ body {
   margin: 0 auto;
   max-width: 1140px; }
 
+#container {
+  background: #e2e2e2;
+  overflow: hidden;
+  position: relative; }
+
 .people {
   width: 100%;
   display: flex;
@@ -180,8 +185,8 @@ a.quote {
 
 .btn {
   display: inline-block;
-  background: #000000;
-  color: #ffffff;
+  background: #000;
+  color: #fff;
   padding: 1rem 1rem;
   text-decoration: none;
   text-transform: uppercase;
@@ -190,6 +195,9 @@ a.quote {
   min-width: 174px;
   min-height: 50px;
   text-align: center; }
+
+.item-section {
+  padding: 0 0 0 calc((100% - 1140px) * 0.5); }
 
 .align {
   padding-top: 62px; }
@@ -202,8 +210,9 @@ a.quote {
   height: 458px; }
 
 .size02 {
-  width: 552px;
-  height: 458px; }
+  min-width: 552px;
+  height: 458px;
+  position: relative; }
 
 .size03 {
   width: 258px;
@@ -265,7 +274,7 @@ input::-webkit-input-placeholder {
   text-align: left;
   font-family: Lato;
   font-size: 14px;
-  color: #333333; }
+  color: #333; }
 
 #header {
   margin: 16px;
@@ -275,12 +284,6 @@ input::-webkit-input-placeholder {
     justify-content: space-between;
     align-items: center;
     margin: 0 auto; }
-
-#container {
-  background: #e2e2e2;
-  overflow: hidden;
-  position: relative;
-  width: 1440px; }
 
 .logo {
   display: inline-block;

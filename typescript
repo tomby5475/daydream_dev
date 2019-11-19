@@ -1,0 +1,141 @@
+Script started on Tue Nov 19 21:16:56 2019
+
+The default interactive shell is now zsh.
+To update your account to use zsh, please run `chsh -s /bin/zsh`.
+For more details, please visit https://support.apple.com/kb/HT208050.
+[?1034hbash-3.2$ npm start
+[37;40mnpm[0m [0m[31;40mERR![0m[35m[0m missing script: start
+[0m
+[37;40mnpm[0m [0m[31;40mERR![0m[35m[0m A complete log of this run can be found in:
+[0m[37;40mnpm[0m [0m[31;40mERR![0m[35m[0m     /Users/yuriimatsko/.npm/_logs/2019-11-19T20_17_02_030Z-debug.log
+[0mbash-3.2$ s[Knpm css
+
+Usage: npm <command>
+
+where <command> is one of:
+    access, adduser, audit, bin, bugs, c, cache, ci, cit,
+    clean-install, clean-install-test, completion, config,
+    create, ddp, dedupe, deprecate, dist-tag, docs, doctor,
+    edit, explore, get, help, help-search, hook, i, init,
+    install, install-ci-test, install-test, it, link, list, ln,
+    login, logout, ls, org, outdated, owner, pack, ping, prefix,
+    profile, prune, publish, rb, rebuild, repo, restart, root,
+    run, run-script, s, se, search, set, shrinkwrap, star,
+    stars, start, stop, t, team, test, token, tst, un,
+    uninstall, unpublish, unstar, up, update, v, version, view,
+    whoami
+
+npm <command> -h  quick help on <command>
+npm -l            display full usage info
+npm help <term>   search for help on <term>
+npm help npm      involved overview
+
+Specify configs in the ini-formatted file:
+    /Users/yuriimatsko/.npmrc
+or on the command line via: npm <command> --key value
+Config info can be viewed via: npm help config
+
+npm@6.10.2 /Users/yuriimatsko/.nvm/versions/node/v12.9.1/lib/node_modules/npm
+
+bash-3.2$ gi[Kukp[K[Klp watch
+[[90m21:17:14[39m] Using gulpfile [35m~/Desktop/daydream_dev/gulpfile.js[39m
+[[90m21:17:14[39m] Starting '[36mwatch[39m'...
+[[90m21:32:29[39m] Starting '[36msass[39m'...
+[[90m21:32:29[39m] Finished '[36msass[39m' after [35m30 ms[39m
+[[90m21:33:12[39m] Starting '[36msass[39m'...
+[[90m21:33:12[39m] Finished '[36msass[39m' after [35m11 ms[39m
+[[90m21:33:13[39m] Starting '[36msass[39m'...
+[[90m21:33:13[39m] Finished '[36msass[39m' after [35m11 ms[39m
+[[90m21:33:16[39m] Starting '[36msass[39m'...
+[[90m21:33:16[39m] Finished '[36msass[39m' after [35m12 ms[39m
+[[90m21:33:37[39m] Starting '[36msass[39m'...
+[[90m21:33:37[39m] Finished '[36msass[39m' after [35m12 ms[39m
+[[90m21:33:43[39m] Starting '[36msass[39m'...
+[[90m21:33:43[39m] Finished '[36msass[39m' after [35m12 ms[39m
+[[90m21:34:02[39m] Starting '[36msass[39m'...
+[31mError[39m in plugin "[36msass[39m"
+Message:
+    [4mscss/styles.scss[24m
+Error: File to import not found or unreadable: globals/common.
+        on line 5 of scss/styles.scss
+>> @import 'globals/common';
+
+   ^
+
+[[90m21:34:02[39m] Finished '[36msass[39m' after [35m8.36 ms[39m
+[[90m21:34:12[39m] Starting '[36msass[39m'...
+[[90m21:34:12[39m] Finished '[36msass[39m' after [35m9.83 ms[39m
+[[90m21:34:30[39m] Starting '[36msass[39m'...
+[[90m21:34:30[39m] Finished '[36msass[39m' after [35m10 ms[39m
+^C
+bash-3.2$ gulp watch
+[[90m21:34:37[39m] Using gulpfile [35m~/Desktop/daydream_dev/gulpfile.js[39m
+[[90m21:34:37[39m] Starting '[36mwatch[39m'...
+ç^C
+bash-3.2$ npm run scss
+
+> project01@1.0.0 scss /Users/yuriimatsko/Desktop/daydream_dev
+> gulp sass watch
+
+[[90m21:35:02[39m] Using gulpfile [35m~/Desktop/daydream_dev/gulpfile.js[39m
+[[90m21:35:02[39m] Starting '[36msass[39m'...
+[[90m21:35:02[39m] Starting '[36mwatch[39m'...
+[[90m21:35:02[39m] Finished '[36msass[39m' after [35m36 ms[39m
+[[90m21:35:22[39m] Starting '[36msass[39m'...
+[[90m21:35:22[39m] Finished '[36msass[39m' after [35m12 ms[39m
+[[90m21:37:25[39m] Starting '[36msass[39m'...
+[[90m21:37:25[39m] Finished '[36msass[39m' after [35m13 ms[39m
+[[90m21:37:34[39m] Starting '[36msass[39m'...
+[[90m21:37:34[39m] Finished '[36msass[39m' after [35m14 ms[39m
+[[90m21:38:02[39m] Starting '[36msass[39m'...
+[[90m21:38:02[39m] Finished '[36msass[39m' after [35m11 ms[39m
+[[90m21:38:04[39m] Starting '[36msass[39m'...
+[[90m21:38:04[39m] Finished '[36msass[39m' after [35m9.98 ms[39m
+[[90m21:39:55[39m] Starting '[36msass[39m'...
+[[90m21:39:55[39m] Finished '[36msass[39m' after [35m13 ms[39m
+[[90m21:39:59[39m] Starting '[36msass[39m'...
+[[90m21:39:59[39m] Finished '[36msass[39m' after [35m10 ms[39m
+[[90m21:40:14[39m] Starting '[36msass[39m'...
+[[90m21:40:14[39m] Finished '[36msass[39m' after [35m9.68 ms[39m
+[[90m21:40:15[39m] Starting '[36msass[39m'...
+[[90m21:40:15[39m] Finished '[36msass[39m' after [35m9.61 ms[39m
+[[90m21:40:27[39m] Starting '[36msass[39m'...
+[[90m21:40:27[39m] Finished '[36msass[39m' after [35m10 ms[39m
+[[90m21:42:17[39m] Starting '[36msass[39m'...
+[[90m21:42:17[39m] Finished '[36msass[39m' after [35m12 ms[39m
+[[90m21:42:28[39m] Starting '[36msass[39m'...
+[[90m21:42:28[39m] Finished '[36msass[39m' after [35m9.94 ms[39m
+[[90m21:43:42[39m] Starting '[36msass[39m'...
+[[90m21:43:42[39m] Finished '[36msass[39m' after [35m12 ms[39m
+[[90m21:43:58[39m] Starting '[36msass[39m'...
+[[90m21:43:58[39m] Finished '[36msass[39m' after [35m8.85 ms[39m
+[[90m21:44:10[39m] Starting '[36msass[39m'...
+[[90m21:44:10[39m] Finished '[36msass[39m' after [35m11 ms[39m
+ç^Cbash-3.2$ 
+bash-3.2$ 
+bash-3.2$ 
+bash-3.2$ 
+bash-3.2$ 
+bash-3.2$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	[31mmodified:   css/styles.css[m
+	[31mmodified:   index.html[m
+	[31mmodified:   scss/components/_header.scss[m
+	[31mmodified:   scss/components/_item.scss[m
+	[31mmodified:   scss/styles.scss[m
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	[31mscss/components/_header 2.scss[m
+	[31mscss/globals/_common.scss[m
+	[31mtypescript[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+bash-3.2$ git add /[K
