@@ -36,6 +36,94 @@ body {
   overflow: hidden;
   position: relative; }
 
+.subscription {
+  background: white;
+  padding-top: 82px;
+  margin: 0 auto; }
+
+.topsub {
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: bold;
+  padding-left: 150px; }
+
+.title-sub {
+  display: block;
+  text-transform: capitalize;
+  font-size: 36px;
+  font-weight: normal;
+  padding-left: 150px; }
+
+.raw {
+  display: flex;
+  justify-content: space-between; }
+
+.contact-form {
+  padding-left: 0; }
+
+.label {
+  font-size: 14px;
+  color: #5a5a5a; }
+
+.contact-form input[type='text'],
+.contact-form input[type="email"],
+.contact-form input[type='tel'] {
+  width: 100%;
+  background-color: #e2e2e2;
+  font-size: 14px;
+  border: none;
+  display: block;
+  line-height: 20px;
+  padding: 10px 16px; }
+
+input::-webkit-input-placeholder {
+  color: black; }
+
+.radiobut {
+  text-align: left;
+  font-size: 14px;
+  color: #333; }
+
+#header {
+  margin: 16px;
+  padding: 16px 0px 25px; }
+  #header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto; }
+
+.logo {
+  display: inline-block;
+  vertical-align: top;
+  width: 206px;
+  height: 48px;
+  overflow: hidden;
+  background-image: url("../images/daydream-logo.png");
+  background-repeat: no-repeat; }
+
+.social_links {
+  display: flex;
+  justify-content: center; }
+  .social_links li {
+    padding: 0 0 0 24px; }
+  .social_links a {
+    width: 32px;
+    height: 32px;
+    display: flex;
+    background: white;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center; }
+    .social_links a:hover {
+      background: black; }
+      .social_links a:hover path {
+        fill: white; }
+    .social_links a:active {
+      background: #e2e2e2; }
+      .social_links a:active path {
+        fill: black; }
+
 .people {
   width: 100%;
   display: flex;
@@ -96,7 +184,7 @@ a.quote {
     max-width: 270px;
     font-weight: normal;
     margin: 0;
-    padding-top: 60 px; }
+    padding-top: 60px; }
 
 .quote_top {
   text-decoration: none;
@@ -186,7 +274,7 @@ a.quote {
 .btn {
   display: inline-block;
   background: #000;
-  color: #fff;
+  color: white;
   padding: 1rem 1rem;
   text-decoration: none;
   text-transform: uppercase;
@@ -226,92 +314,3 @@ a.quote {
   width: 51px;
   color: black;
   margin-bottom: 57px; }
-
-.subscription {
-  background: white;
-  padding-top: 82px; }
-
-.topsub {
-  text-transform: uppercase;
-  font-size: 12px;
-  font-weight: bold;
-  padding-left: 150px; }
-
-.titlesub {
-  text-transform: capitalize;
-  font-size: 36px;
-  font-weight: normal;
-  padding-left: 150px; }
-
-.contactform {
-  text-align: center;
-  padding-left: 0; }
-
-.label {
-  text-align: left;
-  font-family: Lato;
-  font-size: 14px;
-  font-weight: normal;
-  color: #5a5a5a;
-  display: inline-block; }
-
-.input {
-  margin-right: 36px;
-  margin-bottom: 23px;
-  margin-top: 11px;
-  padding-left: 16px;
-  width: 356px;
-  height: 40px;
-  background-color: #e2e2e2;
-  font-size: 14px;
-  border: none;
-  display: block; }
-
-input::-webkit-input-placeholder {
-  color: black; }
-
-.radiobut {
-  text-align: left;
-  font-family: Lato;
-  font-size: 14px;
-  color: #333; }
-
-#header {
-  margin: 16px;
-  padding: 16px 0px 25px; }
-  #header .container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 0 auto; }
-
-.logo {
-  display: inline-block;
-  vertical-align: top;
-  width: 206px;
-  height: 48px;
-  overflow: hidden;
-  background-image: url("../images/daydream-logo.png");
-  background-repeat: no-repeat; }
-
-.social_links {
-  display: flex;
-  justify-content: center; }
-  .social_links li {
-    padding: 0 0 0 24px; }
-  .social_links a {
-    width: 32px;
-    height: 32px;
-    display: flex;
-    background: white;
-    border-radius: 50%;
-    align-items: center;
-    justify-content: center; }
-    .social_links a:hover {
-      background: black; }
-      .social_links a:hover path {
-        fill: white; }
-    .social_links a:active {
-      background: #e2e2e2; }
-      .social_links a:active path {
-        fill: black; }

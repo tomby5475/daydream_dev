@@ -1,0 +1,87 @@
+.people {
+  width: 100%;
+  display: flex;
+  margin-bottom: 50px;
+  a {
+    display: block;
+  }
+}
+.hero-box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  &__img01 {
+    position: relative;
+    margin-right: 10px;
+  }
+  &__img02 {
+    max-width: 359px;
+    position: relative;
+  }
+}
+.quote01 {
+  color: $color01;
+  position: absolute;
+  font-size: 36px;
+  font-style: italic;
+  max-width: 470px;
+  display: block;
+  bottom: 68px;
+  left: 32px;
+}
+a.quote {
+  text-decoration: none;
+  color: $color01;
+}
+.quote02 {
+  color: $color01;
+  position: absolute;
+  width: 243px;
+  line-height: normal;
+  font-size: 26px;
+  font-style: italic;
+  bottom: 285px;
+  left: 32px;
+}
+.telka {
+  margin-bottom: 10px;
+}
+.item_top {
+  background: $color03;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  position: relative;
+  height: 250px;
+  padding-left: 32px;
+  overflow: hidden;
+  h2 {
+    font-size: 26px;
+    font-style: italic;
+    max-width: 270px;
+    font-weight: normal;
+    margin: 0;
+    padding-top: 60px;
+  }
+}
+.quote_top {
+  text-decoration: none;
+  color: $color02;
+}
+.more {
+  position: relative;
+  color: $color04;
+  text-decoration: none;
+  margin: 0;
+  font-size: 11px;
+  &::after {
+    background: url(../images/icon_arrow.svg) no-repeat;
+    width: 20px;
+    height: 12px;
+    display: inline-block;
+    vertical-align: middle;
+    background-position: center;
+    padding-left: 30px;
+    content: "";
+  }
+}

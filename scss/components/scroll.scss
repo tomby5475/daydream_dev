@@ -1,0 +1,111 @@
+
+.scroll {
+  overflow: auto;
+}
+.item_component__price {
+  @extend %font-large;
+  display: block;
+  text-align: center;
+  padding-top: 70px;
+}
+.notice01 {
+  font-size: 12px;
+  display: inline-block;
+  max-width: 100px;
+  text-transform: uppercase;
+  text-align: center;
+  padding-top: 44px;
+  font-weight: bold;
+}
+.notice02 {
+  font-size: 12px;
+  font-style: italic;
+  text-transform: uppercase;
+  text-align: center;
+  max-width: 100px;
+  display: inline-block;
+  padding-top: 24px;
+}
+.notice03 {
+  max-width: 115px;
+  margin-bottom: 22px;
+}
+.vibes {
+  max-width: 110px;
+}
+.img02text {
+  text-transform: uppercase;
+  font-size: 36px;
+  font-weight: bold;
+}
+.clothes {
+  display: flex;
+}
+.global {
+  background: #f3f3f1;
+  min-width: 258px;
+  min-height: 360px;
+  text-align: center;
+  margin-right: 36px;
+  margin-bottom: 30px;
+}
+.lady {
+  background: #f3f3f1;
+  min-width: 258px;
+  min-height: 360px;
+  margin-right: 36px;
+  margin-bottom: 30px;
+  padding-left: 57px;
+  display: flex;
+  align-items: stretch;
+}
+.lady_butt {
+  position: absolute;
+  max-width: 181px;
+  margin-left: 263px;
+  padding-top: 48px;
+}
+.btn {
+  display: inline-block;
+  background: #000;
+  color: $color01;
+  padding: 1rem 1rem;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: bold;
+  min-width: 174px;
+  min-height: 50px;
+  text-align: center;
+}
+.item-section {
+  padding: 0 0 0 calc((100% - 1140px) * 0.5);
+}
+.align {
+  padding-top: 62px;
+}
+.style02 {
+  background: $color01;
+}
+.size01 {
+  width: 258px;
+  height: 458px;
+}
+.size02 {
+  min-width: 552px;
+  height: 458px;
+  position: relative;
+}
+.size03 {
+  width: 258px;
+  height: 360px;
+}
+.style04 {
+  background: #f4e6dc;
+  padding-top: 22px;
+}
+.choker {
+  width: 51px;
+  color: $color02;
+  margin-bottom: 57px;
+}
