@@ -56,10 +56,11 @@ body {
 
 .raw {
   display: flex;
-  justify-content: space-between; }
-
-.contact-form {
-  padding-left: 0; }
+  justify-content: space-between;
+  position: relative;
+  padding-left: 196px;
+  padding-right: 196px;
+  margin-bottom: 20px; }
 
 .label {
   font-size: 14px;
@@ -73,16 +74,63 @@ body {
   font-size: 14px;
   border: none;
   display: block;
-  line-height: 20px;
-  padding: 10px 16px; }
+  padding: 9px 16px 14px 16px; }
+
+.column {
+  width: 48%; }
 
 input::-webkit-input-placeholder {
-  color: black; }
+  color: #848484; }
+
+.depesha {
+  display: inline-block; }
+
+.dep01 {
+  padding-left: 345px; }
+
+.dep02 {
+  padding-left: 50px; }
 
 .radiobut {
-  text-align: left;
+  color: #333;
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
   font-size: 14px;
-  color: #333; }
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none; }
+
+.radiobut input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer; }
+
+.radio {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 22px;
+  width: 22px;
+  background: url(../images/radio.svg);
+  border-radius: 50%; }
+
+.radiobut input:checked ~ .radio {
+  background: url(../images/radio_active.svg); }
+
+.check {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 22px;
+  width: 22px;
+  background: url(../images/checkbox.svg); }
+
+.radiobut input:checked ~ .check {
+  background: url(../images/checkbox_active.svg); }
 
 #header {
   margin: 16px;

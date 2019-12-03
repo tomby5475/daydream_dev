@@ -82,25 +82,91 @@
           </div>
         </article>
           <article class="subscription">
-              <h1 class="topsub">subscription</h1>
+            <h1 class="topsub">subscription</h1>
               <strong class="title-sub">Looking<br>Fresh Take A Powder</strong>
-              <form class="contact-form" action="#">
-              <div class="raw">
-                <label class="label">First name<span><input class="input" type=text placeholder="Johnny"/></span></label>
-                <label class="label">Last name<input class="input" type=text placeholder="Appleseed"/></label>
-                <label class="label">Address 1<input class="input" type=text placeholder="11501 Burnet Road"/></label>
-                <label class="label">Address 2 (optional)<input class="input" type=text placeholder="Unit #, Apt, Suite"/></label>
-                <label class="label">State<input class="input state" type=text placeholder="Select a state"/></label>
-                <label class="label">ZIP<input class="input zip" type=text placeholder="78753"/></label>
-                <label class="label">Phone number (optional)<input class="input" type=tel placeholder="302-492-0322"/></label>
-                <label class="label">Email<input class="input zip" type=email placeholder="johnnyappleseed@gmail.com"/></label>
-              </div>
-              <form action="#">
-                <div class="radiobut">
-                  <label><input type="radio" name="contact" value="yes">I want to hear from the Daydream</label>
-                  <label><input type="radio" name="contact" value="no">I don’t want to hear  from the Daydream</label>
+              <form class="contact-form container" action="#">
+                <div class="raw">
+                  <div class="column">
+                    <label class="label">
+                      <span>First name</span>
+                      <input class="input" type=text placeholder="Johnny"/>
+                    </label>
+                  </div>
+                  <div class="column">
+                    <label class="label">
+                      <span>Last name</span>
+                      <input class="input" type=text placeholder="Appleseed"/>
+                    </label>
+                  </div>
+                </div>
+                <div class="raw">
+                  <div class="column">
+                    <label class="label">
+                      <span>Address 1</span>
+                      <input class="input" type=text placeholder="11501 Burnet Road"/>
+                    </label>
+                  </div>
+                  <div class="column">
+                    <label class="label">
+                      <span>Address 2 (optional)</span>
+                      <input class="input" type=text placeholder="Unit #, Apt, Suite"/>
+                    </label>
+                  </div>
+                </div>
+                <div class="raw">
+                  <div class="column">
+                    <label class="label">
+                      <span>State</span>
+                      <input class="input" type=text placeholder="Select a state"/>
+                    </label>
+                  </div>
+                  <div class="column">
+                    <label class="label">
+                      <span>ZIP</span>
+                      <input class="input" type=text placeholder="78753"/>
+                    </label>
+                  </div>
+                </div>
+                <div class="raw">
+                  <div class="column">
+                    <label class="label">
+                      <span>Phone number (optional)</span>
+                      <input class="input" type=text placeholder="302-492-0322"/>
+                    </label>
+                  </div>
+                  <div class="column">
+                    <label class="label">
+                      <span>Email</span>
+                      <input class="input" type=text placeholder="johnnyappleseed@gmail.com"/>
+                    </label>
+                  </div>
                 </div>
               </form>
+
+              <form action="#" class="depesha dep01">
+                <label class="radiobut">I want to hear from<br>the Daydream
+                  <input type="radio" checked="checked" name="radio">
+                  <span class="radio"></span>
+                </label>
+                <label class="radiobut">I don’t want to hear <br>from the Daydream
+                  <input type="radio" name="radio">
+                  <span class="radio"></span>
+                </label>
+              </form>
+
+              <form action="#" class="depesha dep02">
+                <label class="radiobut">On a daily basis
+                  <input type="checkbox">
+                  <span class="check"></span>
+                </label>
+                <label class="radiobut">Just weekly
+                  <input type="checkbox" checked="checked">
+                  <span class="check"></span>
+                </label>
+              </form>
+
+
+
           </article>
       </div>
     </main>
