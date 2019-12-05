@@ -1,0 +1,49 @@
+.scroll_promocode {
+  position: relative;
+  height: 500px;
+  background: rgba($color07, 0.7);
+  padding-top: 155px;
+  padding-left: 212px;
+}
+.scroll_promocode__title {
+
+
+}
+.fashionable_hats {
+  text-transform: uppercase;
+  font-size: 50px;
+  font-style: italic;
+  font-weight: normal;
+  letter-spacing: 4.36px;
+  max-width: 358px;
+  text-align: center;
+  margin: 0;
+  padding-bottom: 26px;
+}
+.get_promo {
+  font-size: 12px;
+  font-style: italic;
+  text-transform: uppercase;
+  text-align: center;
+  background: rgba($color07, 0.7);
+  border: solid 1px $color08;
+  width: 222px;
+  height: 50px;
+  margin-left: 60px;
+}
+.scroll_foto {
+  position: absolute;
+  left: 47%;
+  bottom: 0;
+}
+
+.hats_left {
+  position: absolute;
+  left: 149px;
+  bottom: 230px;
+}
+.hats_right {
+  position: absolute;
+  right: 146px;
+  bottom: 230px;
+}

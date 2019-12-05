@@ -2,6 +2,7 @@
 .subscription {
   background: $color01;
   padding-top: 82px;
+  padding-bottom: 52px;
   margin: 0 auto;
 }
 .topsub {
@@ -34,36 +35,29 @@ margin-bottom: 20px;
   input[type="email"],
   input[type='tel'] {
     width: 100%;
-    background-color: $basic-color;
+    background-color: rgba($form-background, 0.15);
     font-size: 14px;
     border: none;
     display: block;
     padding: 9px 16px 14px 16px;
+    margin-top: 11px;
   }
 }
 .column {
-width: 48%;
+  width: 48%;
 }
-input::-webkit-input-placeholder { color: $color06; }
-.depesha {
-  display: inline-block;
-
+input::-webkit-input-placeholder {
+  color: rgba($color02, 0.5);
 }
-.dep01 {
-  padding-left: 345px;
-}
-.dep02 {
-  padding-left: 50px;
-}
-
 .radiobut {
   color: #333;
   display: block;
   position: relative;
   padding-left: 35px;
-  margin-bottom: 12px;
+  margin-bottom: 18px;
   cursor: pointer;
   font-size: 14px;
+  line-height: 1.5;
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
@@ -86,7 +80,6 @@ input::-webkit-input-placeholder { color: $color06; }
  .radiobut input:checked ~ .radio {
   background: url(../images/radio_active.svg);
 }
-
 .check {
   position: absolute;
   top: 0;
@@ -97,4 +90,55 @@ input::-webkit-input-placeholder { color: $color06; }
 }
 .radiobut input:checked ~ .check {
  background: url(../images/checkbox_active.svg);
+}
+.radio01 {
+  margin-bottom: 38px;
+}
+.select_holder {
+  display: block;
+  position: relative;
+  height: 40px;
+  background: rgba($form-background, 0.15);
+  z-index: 1;
+  margin-top: 11px;
+  &::after {
+    content: "";
+    position: absolute;
+    right: 16px;
+    width: 0;
+    height: 0;
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+    border-top: 6px solid $color02;
+    top: 50%;
+    margin: -3px 0 0;
+    z-index: -1;
+  }
+   select {
+     line-height: 40px;
+     font-size: 14px;
+     color: rgba($color02, 0.5);
+     border: 0;
+     background: none;
+     padding: 0 16px;
+     -webkit-appearance: none;
+     -moz-appearance: none;
+     text-indent: 1px;
+     text-overflow: '';
+     width: 100%;
+  }
+}
+.depesha {
+width: 24%;
+}
+.cta {
+  height: 50px;
+  width: 100%;
+  background-color: $color02;
+  color: $color01;
+  font-size: 12px;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+  cursor: pointer;
 }

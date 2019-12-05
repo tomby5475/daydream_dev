@@ -117,7 +117,15 @@
                   <div class="column">
                     <label class="label">
                       <span>State</span>
-                      <input class="input" type=text placeholder="Select a state"/>
+                      <span class="select_holder">
+                      <select name="state">
+                        <option>Select a state</option>
+                        <option value="Minnesota">Minnesota</option>
+                        <option value="New York">New York</option>
+                        <option value="South Carolina">South Carolina</option>
+                        <option value="Washington">Washington</option>
+                      </select>
+                    </span>
                     </label>
                   </div>
                   <div class="column">
@@ -141,32 +149,46 @@
                     </label>
                   </div>
                 </div>
+                <div class="raw">
+                  <div class="column depesha">
+                    <label class="radiobut">I want to hear from<br>the Daydream
+                      <input type="radio" checked="checked" name="radio">
+                      <span class="radio"></span>
+                    </label>
+                    <label class="radiobut">I don’t want to hear <br>from the Daydream
+                      <input type="radio" name="radio">
+                      <span class="radio"></span>
+                    </label>
+                  </div>
+                  <div class="depesha">
+                    <label class="radiobut radio01">On a daily basis
+                      <input type="checkbox">
+                      <span class="check"></span>
+                    </label>
+                    <label class="radiobut">Just weekly
+                      <input type="checkbox" checked="checked">
+                      <span class="check"></span>
+                    </label>
+                  </div>
+                  <div class="column">
+                    <button class="cta" type="submit">Subscribe</button>
+                  </div>
+                </div>
               </form>
-
-              <form action="#" class="depesha dep01">
-                <label class="radiobut">I want to hear from<br>the Daydream
-                  <input type="radio" checked="checked" name="radio">
-                  <span class="radio"></span>
-                </label>
-                <label class="radiobut">I don’t want to hear <br>from the Daydream
-                  <input type="radio" name="radio">
-                  <span class="radio"></span>
-                </label>
-              </form>
-
-              <form action="#" class="depesha dep02">
-                <label class="radiobut">On a daily basis
-                  <input type="checkbox">
-                  <span class="check"></span>
-                </label>
-                <label class="radiobut">Just weekly
-                  <input type="checkbox" checked="checked">
-                  <span class="check"></span>
-                </label>
-              </form>
-
-
-
+          </article>
+          <article class="scroll_promocode">
+            <img class="hats_left" src="images/hats_left.svg" alt="Left"/>
+            <div class="scroll_promocode__title">
+              <h3 class="fashionable_hats">fashionable hats</h3>
+              <button class="get_promo" type="button">get promocode</button>
+            </div>
+            <div class="scroll_foto">
+              <img src="images/hats.png" alt="Hats"/>
+            </div>
+            <img class="hats_right" src="images/hats_right.svg" alt="Left"/>
+          </article>
+          <article class="coming_soon">
+            <h2 class="coming_soon__title">Upcoming Events</h2>
           </article>
       </div>
     </main>
