@@ -82,9 +82,10 @@
           </div>
         </article>
           <article class="subscription">
-            <h1 class="topsub">subscription</h1>
+            <div class="container">
+              <h1 class="topsub">subscription</h1>
               <strong class="title-sub">Looking<br>Fresh Take A Powder</strong>
-              <form class="contact-form container" action="#">
+              <form class="contact-form" action="#">
                 <div class="raw">
                   <div class="column">
                     <label class="label">
@@ -118,14 +119,14 @@
                     <label class="label">
                       <span>State</span>
                       <span class="select_holder">
-                      <select name="state">
-                        <option>Select a state</option>
-                        <option value="Minnesota">Minnesota</option>
-                        <option value="New York">New York</option>
-                        <option value="South Carolina">South Carolina</option>
-                        <option value="Washington">Washington</option>
-                      </select>
-                    </span>
+                        <select name="state">
+                          <option>Select a state</option>
+                          <option value="Minnesota">Minnesota</option>
+                          <option value="New York">New York</option>
+                          <option value="South Carolina">South Carolina</option>
+                          <option value="Washington">Washington</option>
+                        </select>
+                      </span>
                     </label>
                   </div>
                   <div class="column">
@@ -134,61 +135,101 @@
                       <input class="input" type=text placeholder="78753"/>
                     </label>
                   </div>
-                </div>
-                <div class="raw">
-                  <div class="column">
-                    <label class="label">
-                      <span>Phone number (optional)</span>
-                      <input class="input" type=text placeholder="302-492-0322"/>
-                    </label>
                   </div>
-                  <div class="column">
-                    <label class="label">
-                      <span>Email</span>
-                      <input class="input" type=text placeholder="johnnyappleseed@gmail.com"/>
-                    </label>
+                  <div class="raw">
+                    <div class="column">
+                      <label class="label">
+                        <span>Phone number (optional)</span>
+                        <input class="input" type=text placeholder="302-492-0322"/>
+                      </label>
+                    </div>
+                    <div class="column">
+                      <label class="label">
+                        <span>Email</span>
+                        <input class="input" type=text placeholder="johnnyappleseed@gmail.com"/>
+                      </label>
+                    </div>
                   </div>
-                </div>
-                <div class="raw">
-                  <div class="column depesha">
-                    <label class="radiobut">I want to hear from<br>the Daydream
-                      <input type="radio" checked="checked" name="radio">
-                      <span class="radio"></span>
-                    </label>
-                    <label class="radiobut">I don’t want to hear <br>from the Daydream
-                      <input type="radio" name="radio">
-                      <span class="radio"></span>
-                    </label>
+                  <div class="raw">
+                    <div class="column depesha">
+                      <label class="radiobut">I want to hear from<br>the Daydream
+                        <input type="radio" checked="checked" name="radio">
+                        <span class="radio"></span>
+                      </label>
+                      <label class="radiobut">I don’t want to hear <br>from the Daydream
+                        <input type="radio" name="radio">
+                        <span class="radio"></span>
+                      </label>
+                    </div>
+                    <div class="depesha">
+                      <label class="radiobut radio01">On a daily basis
+                        <input type="checkbox">
+                        <span class="check"></span>
+                      </label>
+                      <label class="radiobut">Just weekly
+                        <input type="checkbox" checked="checked">
+                        <span class="check"></span>
+                      </label>
+                    </div>
+                    <div class="column">
+                      <button class="cta" type="submit">Subscribe</button>
+                    </div>
                   </div>
-                  <div class="depesha">
-                    <label class="radiobut radio01">On a daily basis
-                      <input type="checkbox">
-                      <span class="check"></span>
-                    </label>
-                    <label class="radiobut">Just weekly
-                      <input type="checkbox" checked="checked">
-                      <span class="check"></span>
-                    </label>
-                  </div>
-                  <div class="column">
-                    <button class="cta" type="submit">Subscribe</button>
-                  </div>
-                </div>
-              </form>
+                </form>
+              </div>
           </article>
-          <article class="scroll_promocode">
-            <img class="hats_left" src="images/hats_left.svg" alt="Left"/>
-            <div class="scroll_promocode__title">
-              <h3 class="fashionable_hats">fashionable hats</h3>
-              <button class="get_promo" type="button">get promocode</button>
+          <article class="gallery_promocode">
+            <div class="container">
+              <section class="promocode_slide">
+                <a href="#" class="arrow_previous"></a>
+                <div class="slide">
+                  <div class="gallery_promocode__title">
+                    <h3 class="fashionable_hats">fashionable hats</h3>
+                    <button class="get_promo" type="button">get promocode</button>
+                  </div>
+                  <div class="scroll_foto">
+                    <img src="images/hats.png" alt="Hats"/>
+                  </div>
+                </div>
+                <a href="#" class="arrow_next"></a>
+              </section>
             </div>
-            <div class="scroll_foto">
-              <img src="images/hats.png" alt="Hats"/>
-            </div>
-            <img class="hats_right" src="images/hats_right.svg" alt="Left"/>
           </article>
           <article class="coming_soon">
-            <h2 class="coming_soon__title">Upcoming Events</h2>
+            <div class="container">
+              <h2 class="coming_soon__title">Upcoming Events</h2>
+              <div class="event01">
+                <h3 class="events_topic">design</h3>
+                <time class="events_time" datetime="2020-02-08">Feb<br>08</time>
+                <h4 class="events_name">68 Berlin Internationan Film Festival</h4>
+                <a href="#" class="more01">LEARN MORE</a>
+              </div>
+              <div class="event01">
+                <h3 class="events_topic">fashion</h3>
+                <time class="events_time" datetime="2020-02-08">Feb<br>08</time>
+                <h4 class="events_name">Celebrity & Artist Management</h4>
+                <a href="#" class="more01">LEARN MORE</a>
+              </div>
+              <div class="event01">
+                <h3 class="events_topic">film</h3>
+                <time class="events_time" datetime="2020-02-10">Feb<br>10</time>
+                <h4 class="events_name">Christmas on Street Jazz</h4>
+                <a href="#" class="more01">LEARN MORE</a>
+              </div>
+              <div class="event01 event02">
+                <h3 class="events_topic">photography</h3>
+                <time class="events_time" datetime="2020-02-11">Feb<br>11</time>
+                <h4 class="events_name"> International Fashion Showcase 2017</h4>
+                <a href="#" class="more01">LEARN MORE</a>
+              </div>
+              <div class="">
+                <a href="#" class="arrow_previous01"></a>
+                <a href="#" class="arrow_next01"></a>
+              </div>
+          </div>
+          </article>
+          <article class="gallery_instagram">
+            <h2 class="coming_soon__title">Best from Instagram</h2>
           </article>
       </div>
     </main>

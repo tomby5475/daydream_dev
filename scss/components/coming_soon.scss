@@ -1,10 +1,77 @@
 .coming_soon {
   background: $color01;
 }
+.event01 {
+  border: solid 1px $color09;
+  padding: 25px 20px 20px 29px;
+  width: 268px;
+  height: 320px;
+  display: inline-block;
+  margin-right: 18px;
+  margin-bottom: 33px;
+}
+.event02 {
+  margin-right: 0;
+}
 .coming_soon__title {
   text-transform: capitalize;
   font-size: 44px;
   font-style: italic;
   font-weight: normal;
-  margin: 0;
+  margin: 0 0 63px 0;
+  text-align: center;
+  padding-top: 32px;
+}
+.events_topic {
+  font-size: 11px;
+  font-weight: normal;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: $color06;
+  margin: 0 0 11px 0;
+}
+.events_time {
+  font-size: 50px;
+  min-width: 153px;
+  margin-bottom: 31px;
+}
+.events_name {
+  font-size: 20px;
+  font-weight: 300;
+  text-transform: capitalize;
+}
+.more01 {
+    position: relative;
+    color: $color10;
+    text-decoration: none;
+    margin: 0;
+    font-size: 11px;
+    letter-spacing: 1px;
+    &::after {
+      background: url(../images/arrow_long.svg) no-repeat;
+      width: 20px;
+      height: 12px;
+      display: inline-block;
+      vertical-align: middle;
+      background-position: center;
+      padding-left: 40px;
+      content: "";
+    }
+  }
+.arrow_previous01 {
+  background-image: url(../images/arrow_prev.svg);
+  position: absolute;
+  right: 50px;
+  bottom: 0;
+  height: 40px;
+  width: 40px;
+
+}
+.arrow_next01 {
+  background-image: url(../images/arrow_next.svg);
+  position: absolute;
+  right: 0px;
+  bottom: 0;
+  height: 40px;
+  width: 40px;
 }
