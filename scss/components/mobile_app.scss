@@ -1,0 +1,31 @@
+.mobile_app {
+  background: $color01;
+  p {
+    font-size: 14px;
+    font-style: italic;
+  }
+  q {
+    font-size: 14px;
+    font-style: italic;
+    color: $color06;
+    quotes: none;
+  }
+}
+.mobile_app__columns {
+  display: flex;
+  justify-content: space-between;
+  width: 60%;
+}
+.mobile_app__download {
+  max-width: 361px;
+  h2 {
+    text-transform: capitalize;
+    font-size: 58px;
+
+  }
+  h5 {
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 1.5;
+  }
+}

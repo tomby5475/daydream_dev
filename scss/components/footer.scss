@@ -1,0 +1,12 @@
+#footer {
+  background: $color02;
+}
+.footer__logo {
+display: inline-block;
+vertical-align: top;
+width: 206px;
+height: 48px;
+overflow: hidden;
+background-image: url("../images/logo_footer.svg");
+background-repeat: no-repeat;
+}

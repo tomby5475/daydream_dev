@@ -188,7 +188,7 @@ input::-webkit-input-placeholder {
   width: 206px;
   height: 48px;
   overflow: hidden;
-  background-image: url("../images/daydream-logo.png");
+  background-image: url("../images/logo_header.png");
   background-repeat: no-repeat; }
 
 .social_links {
@@ -536,3 +536,62 @@ a.quote {
 
 .gallery_instagram {
   background: white; }
+
+.coming_soon__title {
+  margin-bottom: 15px; }
+
+.gallery_instagram__hr {
+  width: 45px;
+  background: #d8d8d8;
+  margin-bottom: 80px; }
+
+.gallery_instagram__foto {
+  min-width: 250px;
+  min-height: 250px;
+  margin-right: 40px; }
+
+.gallery_instagram__foto01 {
+  min-width: 120px;
+  min-height: 250px;
+  margin-right: 40px; }
+
+.gallery_instagram__style {
+  padding-top: 22px; }
+
+.mobile_app {
+  background: white; }
+  .mobile_app p {
+    font-size: 14px;
+    font-style: italic; }
+  .mobile_app q {
+    font-size: 14px;
+    font-style: italic;
+    color: #848484;
+    quotes: none; }
+
+.mobile_app__columns {
+  display: flex;
+  justify-content: space-between;
+  width: 60%; }
+
+.mobile_app__download {
+  max-width: 361px; }
+  .mobile_app__download h2 {
+    text-transform: capitalize;
+    font-size: 58px; }
+  .mobile_app__download h5 {
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 1.5; }
+
+#footer {
+  background: black; }
+
+.footer__logo {
+  display: inline-block;
+  vertical-align: top;
+  width: 206px;
+  height: 48px;
+  overflow: hidden;
+  background-image: url("../images/logo_footer.svg");
+  background-repeat: no-repeat; }
