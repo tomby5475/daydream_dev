@@ -1,12 +1,26 @@
 #footer {
   background: $color02;
+  padding: 54px 0;
+}
+.footer {
+  display: flex;
+  justify-content: space-between;
 }
 .footer__logo {
-display: inline-block;
-vertical-align: top;
 width: 206px;
 height: 48px;
 overflow: hidden;
 background-image: url("../images/logo_footer.svg");
 background-repeat: no-repeat;
+}
+.footer__copyright {
+  color: $color01;
+  font-size: 14px;
+  padding-top: 17px;
+}
+.footer__icons {
+  padding-top: 17px;
+}
+.footer__icons__img {
+margin-right: 30px;
 }

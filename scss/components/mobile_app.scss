@@ -1,15 +1,6 @@
 .mobile_app {
   background: $color01;
-  p {
-    font-size: 14px;
-    font-style: italic;
-  }
-  q {
-    font-size: 14px;
-    font-style: italic;
-    color: $color06;
-    quotes: none;
-  }
+  padding: 33px 0;
 }
 .mobile_app__columns {
   display: flex;
@@ -18,14 +9,45 @@
 }
 .mobile_app__download {
   max-width: 361px;
+
   h2 {
     text-transform: capitalize;
     font-size: 58px;
-
   }
   h5 {
     font-size: 20px;
     font-weight: 300;
     line-height: 1.5;
   }
+  p {
+    font-size: 14px;
+    font-style: italic;
+    margin-bottom: 7px;
+  }
+  q {
+    display: inline-block;
+    font-size: 14px;
+    font-style: italic;
+    color: $color06;
+    quotes: none;
+    line-height: 1.57;
+  }
+}
+.mobile_app__download__button {
+  margin: 0 10px 0 0;
+}
+
+
+.mobile_app__download__feedback {
+display: flex;
+flex-direction: row;
+padding-top: 41px;
+}
+
+.mobile_app__download__ava {
+
+  margin-right: 10px;
+}
+.1 {
+  display: inline-block;
 }

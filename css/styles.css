@@ -559,15 +559,8 @@ a.quote {
   padding-top: 22px; }
 
 .mobile_app {
-  background: white; }
-  .mobile_app p {
-    font-size: 14px;
-    font-style: italic; }
-  .mobile_app q {
-    font-size: 14px;
-    font-style: italic;
-    color: #848484;
-    quotes: none; }
+  background: white;
+  padding: 33px 0; }
 
 .mobile_app__columns {
   display: flex;
@@ -583,15 +576,54 @@ a.quote {
     font-size: 20px;
     font-weight: 300;
     line-height: 1.5; }
+  .mobile_app__download p {
+    font-size: 14px;
+    font-style: italic;
+    margin-bottom: 7px; }
+  .mobile_app__download q {
+    display: inline-block;
+    font-size: 14px;
+    font-style: italic;
+    color: #848484;
+    quotes: none;
+    line-height: 1.57; }
+
+.mobile_app__download__button {
+  margin: 0 10px 0 0; }
+
+.mobile_app__download__feedback {
+  display: flex;
+  flex-direction: row;
+  padding-top: 41px; }
+
+.mobile_app__download__ava {
+  margin-right: 10px; }
+
+.1 {
+  display: inline-block; }
 
 #footer {
-  background: black; }
+  background: black;
+  padding: 54px 0; }
+
+.footer {
+  display: flex;
+  justify-content: space-between; }
 
 .footer__logo {
-  display: inline-block;
-  vertical-align: top;
   width: 206px;
   height: 48px;
   overflow: hidden;
   background-image: url("../images/logo_footer.svg");
   background-repeat: no-repeat; }
+
+.footer__copyright {
+  color: white;
+  font-size: 14px;
+  padding-top: 17px; }
+
+.footer__icons {
+  padding-top: 17px; }
+
+.footer__icons__img {
+  margin-right: 30px; }
